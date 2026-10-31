@@ -1,0 +1,39 @@
+{
+  "name": "cosmic-blush-theme",
+  "displayName": "Cosmic Blush",
+  "description": "Dark colour theme from the COSMIC Blush rice, syntax as in its Neovim scheme.",
+  "version": "1.0.0",
+  "publisher": "atraxsrc",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#F5E6D3",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atraxsrc/cosmic-blush-theme"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "cosmic",
+    "blush",
+    "cursor"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cosmic Blush",
+        "uiTheme": "vs",
+        "path": "./themes/cosmic-blush-color-theme.json"
+      }
+    ]
+  }
+}
