@@ -12,7 +12,7 @@
 #  walnut:  #644535   cocoa:   #8C6A4E
 #  muted:   #756454   dim:     #A89584
 #
-# Dark terminal: rose for commands, mocha for strings, walnut for links,
+# Light terminal: rose for commands, mocha for strings, walnut for links,
 # crimson only for what is wrong.
 
 # ── File colours (ls, lsd file names, completion menu) ─────────────────────────

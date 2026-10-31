@@ -2,7 +2,7 @@
 set -eo pipefail
 
 # ─────────────────────────────────────────────
-#  Blush palette (dark terminal)
+#  Blush palette (light terminal)
 #  bg:      #F5E6D3   fg:      #35302A
 #  rose:    #9E4F5B   copper:  #9B5625
 #  crimson: #A02B16   mocha:   #76634C

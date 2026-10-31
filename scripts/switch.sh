@@ -7,7 +7,7 @@ set -euo pipefail
 
 NAME="Blush"                         # shown in messages
 SLUG="blush"                         # zsh/<slug>.zsh, nvim/lua/plugins/<slug>.lua
-MODE="dark"                         # the COSMIC half this rice fills: dark or light
+MODE="light"                        # the COSMIC half this rice fills: dark or light
 RON="Blush.ron"                      # desktop theme in cosmic/
 TERM_RON="Blush-term.ron"            # terminal scheme in cosmic-term/
 BTOP="Blush"                         # btop/<name>.theme
