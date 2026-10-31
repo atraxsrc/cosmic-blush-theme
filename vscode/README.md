@@ -20,9 +20,9 @@ listed under Extensions and running the script again updates it. Then press
 No CLI on the PATH (an AppImage, say): the script still builds the `.vsix`;
 install it from Extensions → `...` → **Install from VSIX**.
 
-Blush has no light half, so there is nothing for COSMIC's Dark / Light toggle to
+Blush has no dark half, so there is nothing for COSMIC's Dark / Light toggle to
 switch to; leave `window.autoDetectColorScheme` off, or pair it with another
-rice's light theme in `workbench.preferredLightColorTheme`.
+rice's dark theme in `workbench.preferredDarkColorTheme`.
 
 ## What it colours
 
