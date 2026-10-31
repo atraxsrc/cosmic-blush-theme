@@ -1,7 +1,7 @@
 {
   "name": "cosmic-blush-theme",
-  "displayName": "Cosmic Blush",
-  "description": "Dark colour theme from the COSMIC Blush rice, syntax as in its Neovim scheme.",
+  "displayName": "Cosmic Blush Night / Cosmic Blush",
+  "description": "Cosmic Blush Night (dark) and Cosmic Blush (light), the COSMIC rice pair, for Cursor and VS Code",
   "version": "1.0.0",
   "publisher": "atraxsrc",
   "license": "MIT",
@@ -22,13 +22,20 @@
   ],
   "keywords": [
     "theme",
+    "dark",
     "light",
     "cosmic",
     "blush",
+    "blushnight",
     "cursor"
   ],
   "contributes": {
     "themes": [
+      {
+        "label": "Cosmic Blush Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cosmic-blushnight-color-theme.json"
+      },
       {
         "label": "Cosmic Blush",
         "uiTheme": "vs",
