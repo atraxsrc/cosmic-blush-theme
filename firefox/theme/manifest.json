@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "name": "Cosmic Blush",
+  "version": "1.0",
+  "description": "Sand theme from the COSMIC Blush rice: mocha icons, one rose accent.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{d1f586c1-25b3-4775-b864-e0c69592e577}"
+    }
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "toolbar": "#FDF7EE",
+      "toolbar_text": "#35302a",
+      "frame": "#F5E6D3",
+      "tab_background_text": "#76634c",
+      "tab_text": "#9e4f5b",
+      "toolbar_field": "#e3d2bb",
+      "toolbar_field_text": "#35302a",
+      "toolbar_field_border_focus": "#9E4F5B",
+      "toolbar_field_highlight": "#9E4F5B",
+      "toolbar_field_highlight_text": "#F5E6D3",
+      "tab_line": "#9E4F5B",
+      "popup": "#FDF7EE",
+      "popup_text": "#35302a",
+      "button_background_active": "#9E4F5B",
+      "button_background_hover": "#e3d2bb",
+      "frame_inactive": "#F5E6D3",
+      "icons_attention": "#9E4F5B",
+      "icons": "#76634c",
+      "ntp_background": "#F5E6D3",
+      "ntp_text": "#35302a",
+      "popup_border": "#8C6A4E",
+      "popup_highlight_text": "#F5E6D3",
+      "popup_highlight": "#9E4F5B",
+      "sidebar_border": "#e3d2bb",
+      "sidebar_highlight_text": "#F5E6D3",
+      "sidebar_highlight": "#9E4F5B",
+      "sidebar_text": "#35302a",
+      "tab_loading": "#9E4F5B"
+    }
+  }
+}

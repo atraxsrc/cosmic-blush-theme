@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Cosmic Blush",
+  "version": "1.0",
+  "description": "Sand theme from the COSMIC Blush rice: mocha icons, one rose accent.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [245, 230, 211],
+      "frame_inactive": [245, 230, 211],
+      "frame_incognito": [245, 230, 211],
+      "frame_incognito_inactive": [245, 230, 211],
+      "background_tab": [245, 230, 211],
+      "background_tab_inactive": [245, 230, 211],
+      "background_tab_incognito": [245, 230, 211],
+      "background_tab_incognito_inactive": [245, 230, 211],
+      "toolbar": [253, 247, 238],
+      "tab_text": [158, 79, 91],
+      "tab_background_text": [118, 99, 76],
+      "tab_background_text_inactive": [118, 99, 76],
+      "tab_background_text_incognito": [118, 99, 76],
+      "tab_background_text_incognito_inactive": [118, 99, 76],
+      "bookmark_text": [53, 48, 42],
+      "toolbar_button_icon": [118, 99, 76],
+      "omnibox_background": [227, 210, 187],
+      "omnibox_text": [53, 48, 42],
+      "ntp_background": [245, 230, 211],
+      "ntp_text": [53, 48, 42],
+      "ntp_link": [158, 79, 91]
+    }
+  }
+}
