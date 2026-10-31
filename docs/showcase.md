@@ -28,12 +28,12 @@ what frosted glass blurs into.
 
 ```mermaid
 flowchart LR
-    P[Blush palette] --> D[COSMIC desktop<br/>Blush.ron, Dark slot]
+    P[Blush palette] --> D[COSMIC desktop<br/>Blush.ron, Light slot]
     P --> T[COSMIC Terminal<br/>Blush]
     P --> S[zsh layer<br/>LS_COLORS, highlighting, starship]
     P --> E[Postilla<br/>syntax theme from the terminal scheme]
     T --> B[btop, bat, lsd, fastfetch]
-    D --> F[Firefox<br/>built-in Dark + userChrome]
+    D --> F[Firefox<br/>built-in Light + userChrome]
 ```
 
 ## Setup, in order

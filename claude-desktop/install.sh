@@ -24,4 +24,4 @@ fi
 
 echo
 echo "Done. In Claude Desktop press Ctrl+Shift+T and pick cosmic-blush."
-echo "Blush is dark only; Settings -> Appearance changes nothing."
+echo "Blush is light only; Settings -> Appearance changes nothing."

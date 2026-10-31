@@ -10,7 +10,7 @@ All patched so they work in COSMIC's own apps.
 | ------- | ------- | ---- | ------------------- | --------- |
 | **Rose** (default) | ![](../assets/cursors/Oxygen-Blush-Rose.png) | ![#9E4F5B](https://placehold.co/12x12/9e4f5b/9e4f5b.png) `#9E4F5B` | 4.6:1 | Rose folders |
 | **Crimson** | ![](../assets/cursors/Oxygen-Blush-Crimson.png) | ![#A02B16](https://placehold.co/12x12/a02b16/a02b16.png) `#A02B16` | 5.2:1 | Crimson folders |
-| **Dark** | ![](../assets/cursors/Oxygen-Blush-Dark.png) | ![#ECDCC6](https://placehold.co/12x12/ecdcc6/ecdcc6.png) `#ECDCC6` | 1.1:1 | Dark folders |
+| **Dark** | ![](../assets/cursors/Oxygen-Blush-Dark.png) | ![#35302A](https://placehold.co/12x12/35302a/35302a.png) `#35302A` | 10.7:1 | Dark folders |
 
 Each variant is a normal folder here (`Oxygen-Blush-<Variant>/index.theme` + `cursors/`),
 already fixed for COSMIC. Nothing is downloaded at install time.

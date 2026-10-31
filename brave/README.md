@@ -55,8 +55,8 @@ the colours out as numbers.
   the address bar dropdown or text selection; Chromium works those out from
   the frame and toolbar colours. There is no `userChrome.css` equivalent.
 - **Brave's own panels** (Shields, sidebar, wallet, settings) follow Brave's
-  dark mode, not the theme. Set `brave://settings/appearance` → Brave colors
-  → **Dark**.
+  light mode, not the theme. Set `brave://settings/appearance` → Brave colors
+  → **Light**.
 - **Brave's new tab page** is Brave's own and may ignore `ntp_background`.
   Pick a background on the page itself: **Customize** → Background image.
 - **Web pages** are not themed. That is `brave://flags/#enable-force-dark`

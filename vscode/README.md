@@ -31,16 +31,16 @@ Code is coloured the way Neovim is in the rice (`nvim/colors/blush.lua`):
 | Role | Blush |
 |------|----|
 | Keywords, tags | ![#9E4F5B](https://placehold.co/12x12/9e4f5b/9e4f5b.png) `#9E4F5B` |
-| Functions, tag attributes | ![#644535](https://placehold.co/12x12/C9C2B4/C9C2B4.png) `#644535` |
-| Strings | ![#76634C](https://placehold.co/12x12/9FA5A9/9FA5A9.png) `#76634C` |
-| Numbers, constants | ![#9B5625](https://placehold.co/12x12/D87C4A/D87C4A.png) `#9B5625` |
+| Functions, tag attributes | ![#644535](https://placehold.co/12x12/644535/644535.png) `#644535` |
+| Strings | ![#76634C](https://placehold.co/12x12/76634c/76634c.png) `#76634C` |
+| Numbers, constants | ![#9B5625](https://placehold.co/12x12/9b5625/9b5625.png) `#9B5625` |
 | Types, classes, modules | ![#8C6A4E](https://placehold.co/12x12/8c6a4e/8c6a4e.png) `#8C6A4E` |
-| Imports, macros, decorators, escapes, `this` / `self` | ![#6E4A3A](https://placehold.co/12x12/9D7E6F/9D7E6F.png) `#6E4A3A` |
-| Parameters (italic) | ![#6B5E52](https://placehold.co/12x12/A5AEB4/A5AEB4.png) `#6B5E52` |
-| Operators, punctuation | ![#756454](https://placehold.co/12x12/7F7F7F/7F7F7F.png) `#756454` |
-| Comments (italic) | ![#A89584](https://placehold.co/12x12/565D60/565D60.png) `#A89584` |
+| Imports, macros, decorators, escapes, `this` / `self` | ![#6E4A3A](https://placehold.co/12x12/6e4a3a/6e4a3a.png) `#6E4A3A` |
+| Parameters (italic) | ![#6B5E52](https://placehold.co/12x12/6b5e52/6b5e52.png) `#6B5E52` |
+| Operators, punctuation | ![#756454](https://placehold.co/12x12/756454/756454.png) `#756454` |
+| Comments (italic) | ![#A89584](https://placehold.co/12x12/a89584/a89584.png) `#A89584` |
 | Accent | ![#9E4F5B](https://placehold.co/12x12/9e4f5b/9e4f5b.png) `#9E4F5B` |
-| Errors, deleted, conflicts | ![#A02B16](https://placehold.co/12x12/DE6145/DE6145.png) `#A02B16` |
+| Errors, deleted, conflicts | ![#A02B16](https://placehold.co/12x12/a02b16/a02b16.png) `#A02B16` |
 
 The workbench takes the window colour of the rice's `cosmic/Blush.ron` for the
 editor, side bars, panel, title and status bar, the container colours for

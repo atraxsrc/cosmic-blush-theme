@@ -40,7 +40,7 @@ Two layers, use one or both:
    (below) or from addons.mozilla.org once it is listed there.
 2. **Stylesheets (optional):** `chrome/` adds rounded corners, rose menu
    hover, rose accents and a blank new-tab grid on top of the theme. They
-   also work with Firefox's built-in Dark theme.
+   also work with Firefox's built-in Light theme.
 
 ## Theme
 

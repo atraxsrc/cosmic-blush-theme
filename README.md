@@ -60,7 +60,7 @@ carry it with ivory text on top.
 │   ├── cosmic-blush.jsonc          # Claude Desktop theme (claude-desktop-extra)
 │   └── install.sh
 ├── cosmic
-│   ├── Blush.ron                   # COSMIC Appearance import (Dark)
+│   ├── Blush.ron                   # COSMIC Appearance import (Light)
 │   ├── config/                  # baseline settings: fonts, icons, terminal look
 │   └── install.sh
 ├── cosmic-term
@@ -123,7 +123,9 @@ carry it with ivory text on top.
 
 ## COSMIC Desktop
 
-Settings → Desktop → Appearance → **Dark** → **Import** → `cosmic/Blush.ron`
+This is a **Light** theme, so it goes in COSMIC's Light slot:
+
+Settings → Desktop → Appearance → **Light** → **Import** → `cosmic/Blush.ron`
 
 Accent is rose ![#9E4F5B](https://placehold.co/12x12/9e4f5b/9e4f5b.png) `#9E4F5B`. Use the `+` control if you want a custom swatch.
 
@@ -134,10 +136,6 @@ applets and system UI (maximized apps stay solid), and corners are squared
 Appearance → Style → Frosted glass after import; those sliders survive a theme switch.
 
 Export from Appearance if you tweak backgrounds / tints so you do not lose them.
-
-Blush fills the Dark slot only. Put any other rice's light `.ron` in the Light
-slot and COSMIC's Dark / Light toggle flips between the two. Wallpaper,
-Firefox and the shell layer do not follow the toggle; those are per-rice files.
 
 ### Baseline settings
 
@@ -174,7 +172,7 @@ lives in `cosmic/config/com.system76.CosmicTk/v1/interface_font`.
 The desktop `.ron` does not colour ANSI text.
 
 1. COSMIC Terminal → **View → Color schemes…** (not Settings → Appearance)
-2. Dark tab → **Import** → `cosmic-term/Blush-term.ron`
+2. Light tab → **Import** → `cosmic-term/Blush-term.ron`
 3. View → Settings → Appearance → Color scheme (light) → **Blush**
 
 If a profile is set as default, set the scheme on that profile too or the
@@ -203,7 +201,7 @@ Two layers:
    This is the main look.
 2. **Stylesheets (optional):** `firefox/chrome/` adds rounded corners, rose
    menu hover, rose accents and blank new-tab tiles on top of the theme
-   (they also work with Firefox's built-in Dark theme):
+   (they also work with Firefox's built-in Light theme):
 
 ```bash
 ./firefox/install.sh
@@ -416,7 +414,7 @@ cp btop/Blush.theme ~/.config/btop/themes/
 Icons: **Cosmic-Blush**, the [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa)
 by Fausto Korpsvart recolored to this palette in
 [cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes). Folders come in
-three colors: **Rose** ![#9E4F5B](https://placehold.co/12x12/9e4f5b/9e4f5b.png) `#9E4F5B` (default), **Crimson** ![#A02B16](https://placehold.co/12x12/a02b16/a02b16.png) `#A02B16` and **Dark** ![#ECDCC6](https://placehold.co/12x12/ecdcc6/ecdcc6.png) `#ECDCC6` with rose symbols.
+three colors: **Rose** ![#9E4F5B](https://placehold.co/12x12/9e4f5b/9e4f5b.png) `#9E4F5B` (default), **Crimson** ![#A02B16](https://placehold.co/12x12/a02b16/a02b16.png) `#A02B16` and **Dark** ![#35302A](https://placehold.co/12x12/35302a/35302a.png) `#35302A` with rose symbols.
 
 ![Cosmic-Blush folder colors](https://raw.githubusercontent.com/atraxsrc/cosmic-icon-themes/main/previews/Cosmic-Blush.png)
 
@@ -450,10 +448,10 @@ git clone https://github.com/atraxsrc/cosmic-blush-theme.git
 cd cosmic-blush-theme
 
 # desktop
-# Settings → Appearance → Dark → Import cosmic/Blush.ron
+# Settings → Appearance → Light → Import cosmic/Blush.ron
 
 # terminal
-# View → Color schemes → Import cosmic-term/Blush-term.ron
+# View → Color schemes → Light tab → Import cosmic-term/Blush-term.ron
 
 # firefox theme: about:debugging → Load Temporary Add-on → firefox/theme/manifest.json
 # (or zip and sign it, see firefox/README.md)
@@ -526,8 +524,8 @@ It backs up every file it replaces, then:
 
 The GUI steps it cannot do are printed at the end:
 
-1. Settings → Desktop → Appearance → Dark → Import `cosmic/Blush.ron`
-2. COSMIC Terminal → View → Color schemes → Dark tab → Import `cosmic-term/Blush-term.ron`
+1. Settings → Desktop → Appearance → Light → Import `cosmic/Blush.ron`
+2. COSMIC Terminal → View → Color schemes → Light tab → Import `cosmic-term/Blush-term.ron`
 3. Firefox: disable the old rice's add-on, enable this one, restart Firefox
 4. Settings → Wallpaper → a file from `backgrounds/`
 5. Claude Desktop: Ctrl+Shift+T → `cosmic-blush`
