@@ -1,0 +1,41 @@
+# 256-colour codes nearest the Blush palette on sand (lsd 1.0.0 does not accept
+# #hex here): 131 rose, 124 crimson, 94 copper, 95 mocha, 239 walnut,
+# 95 cocoa, 95 taupe, 138 clay.
+user: 239
+group: 95
+permission:
+  read: 95
+  write: 239
+  exec: 131
+  exec-sticky: 131
+  no-access: 138
+  octal: 95
+  acl: 95
+  context: 95
+date:
+  hour-old: 239
+  day-old: 95
+  older: 138
+size:
+  none: 138
+  small: 95
+  medium: 239
+  large: 124
+inode:
+  valid: 95
+  invalid: 124
+links:
+  valid: 95
+  invalid: 124
+tree-edge: 138
+git-status:
+  default: 138
+  unmodified: 138
+  ignored: 138
+  new-in-index: 95
+  new-in-workdir: 95
+  typechange: 239
+  deleted: 124
+  renamed: 95
+  modified: 94
+  conflicted: 124
