@@ -1,0 +1,6 @@
+name = "Blush"
+mode = "light"
+theme = "Blush.ron"
+pair = "blushnight"
+terminal = "Blush-term.ron"
+btop = "Blush"
