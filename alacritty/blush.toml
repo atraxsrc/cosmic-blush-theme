@@ -1,0 +1,80 @@
+# Blush for Alacritty, part of cosmic-blush-theme (MIT).
+# Colours follow the COSMIC Terminal scheme (cosmic-term/).
+#
+# Install: ./alacritty/install.sh puts this in ~/.config/alacritty/themes/,
+# then in ~/.config/alacritty/alacritty.toml:
+#   [general]
+#   import = ["~/.config/alacritty/themes/blush.toml"]
+# (Alacritty 0.13: a top-level `import = [...]` line instead.)
+
+[colors.primary]
+background = "#F5E6D3"
+foreground = "#35302A"
+bright_foreground = "#2A2620"
+dim_foreground = "#756454"
+
+[colors.cursor]
+text = "#F5E6D3"
+cursor = "#9E4F5B"
+
+[colors.vi_mode_cursor]
+text = "#F5E6D3"
+cursor = "#9B5625"
+
+[colors.selection]
+text = "CellForeground"
+background = "#E3D2BB"
+
+[colors.search.matches]
+foreground = "#F5E6D3"
+background = "#644535"
+
+[colors.search.focused_match]
+foreground = "#F5E6D3"
+background = "#9E4F5B"
+
+[colors.hints.start]
+foreground = "#F5E6D3"
+background = "#9B5625"
+
+[colors.hints.end]
+foreground = "#F5E6D3"
+background = "#644535"
+
+[colors.footer_bar]
+foreground = "#35302A"
+background = "#FDF7EE"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.normal]
+black   = "#ECDCC6"
+red     = "#A02B16"
+green   = "#76634C"
+yellow  = "#644535"
+blue    = "#9E4F5B"
+magenta = "#9B5625"
+cyan    = "#713A56"
+white   = "#5C5147"
+
+[colors.bright]
+black   = "#A89584"
+red     = "#7C2111"
+green   = "#60513E"
+yellow  = "#50372A"
+blue    = "#8A454F"
+magenta = "#7A441D"
+cyan    = "#78292E"
+white   = "#2A2620"
+
+[colors.dim]
+black   = "#F5E6D3"
+red     = "#DF3C1F"
+green   = "#9F876A"
+yellow  = "#996A51"
+blue    = "#713A56"
+magenta = "#D17C40"
+cyan    = "#934B70"
+white   = "#6B5E52"

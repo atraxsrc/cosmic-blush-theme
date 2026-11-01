@@ -1,0 +1,37 @@
+# Blush for lazygit, part of cosmic-blush-theme (MIT). Only the colours: your
+# own ~/.config/lazygit/config.yml keeps the rest.
+#
+# Install: ./lazygit/install.sh puts this in ~/.config/lazygit/blush.yml and
+# zsh/blush.zsh sets LG_CONFIG_FILE to "config.yml,blush.yml" so lazygit
+# reads both (the later file wins). Without the zsh layer:
+#   export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml,$HOME/.config/lazygit/blush.yml"
+gui:
+  theme:
+    activeBorderColor:
+      - "#9E4F5B"
+      - bold
+    inactiveBorderColor:
+      - "#E3D2BB"
+    searchingActiveBorderColor:
+      - "#9B5625"
+      - bold
+    optionsTextColor:
+      - "#8C6A4E"
+    selectedLineBgColor:
+      - "#ECDCC6"
+    inactiveViewSelectedLineBgColor:
+      - "#FDF7EE"
+    cherryPickedCommitFgColor:
+      - "#F5E6D3"
+    cherryPickedCommitBgColor:
+      - "#644535"
+    markedBaseCommitFgColor:
+      - "#F5E6D3"
+    markedBaseCommitBgColor:
+      - "#76634C"
+    unstagedChangesColor:
+      - "#A02B16"
+    defaultFgColor:
+      - "#35302A"
+  authorColors:
+    "*": "#644535"
