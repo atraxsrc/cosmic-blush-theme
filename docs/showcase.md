@@ -43,7 +43,7 @@ flowchart LR
 - [x] `./icons/install.sh` for the **Cosmic-Blush** icons, `./cosmic/install.sh` for fonts and the terminal look
 - [x] `./zsh/install.sh`, `./lsd/install.sh`, `./fastfetch/install.sh`
 - [x] Cursor: Oxygen-Blush-Rose
-- [x] Wallpaper: `backgrounds/blush-dunes.jpg`
+- [x] Wallpaper: `backgrounds/blush-anime.png`
 - [ ] Screenshot for the README
 
 ## The baseline every rice shares
