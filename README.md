@@ -128,6 +128,8 @@ carry it with ivory text on top.
 │   ├── config.yaml              # theme: custom
 │   ├── colors.yaml              # permission / size / date / git columns
 │   └── install.sh
+├── notesnook
+│   └── cosmic-blush.json        # Notesnook theme, Blush (light)
 ├── nvim                         # Neovim colorscheme, LazyVim spec, RON syntax, install.sh
 ├── obsidian
 │   ├── cosmic-blush.css         # CSS snippet, Blush Night (dark) + Blush (light)
@@ -413,6 +415,22 @@ in ![#644535](https://placehold.co/12x12/644535/644535.png) `#644535`. The same 
 
 It copies the file into the vault's `.obsidian/snippets/`. Snippets are per
 vault, so run it once per vault.
+
+---
+
+## Notesnook
+
+`notesnook/cosmic-blush.json` is a [Notesnook](https://notesnook.com/) theme for Blush,
+built from the same palette as the Obsidian snippet: window, list and sidebar
+backgrounds, text, accent, selection and the error / success colours. A
+Notesnook theme holds one colour scheme, so the Blush Night half ships as
+`notesnook/cosmic-blushnight.json` in cosmic-blushnight-theme; load both if you switch between
+dark and light.
+
+```text
+Notesnook → Settings → Appearance → Themes → Load from file
+→ pick notesnook/cosmic-blush.json → Set as default
+```
 
 ---
 
