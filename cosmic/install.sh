@@ -18,6 +18,6 @@ done
 
 cat <<'EOF'
 
-Done. Needs the Maple fonts and Cosmic-Blush icons (./icons/install.sh) installed, and the Blush
+Done. Needs the fonts (./fonts/install.sh) and Cosmic-Blush icons (./icons/install.sh) installed, and the Blush
 terminal scheme imported, or COSMIC falls back to its defaults.
 EOF
