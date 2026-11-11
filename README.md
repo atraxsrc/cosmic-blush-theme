@@ -213,7 +213,7 @@ Firefox and the shell layer do not follow the toggle; those are per-rice files.
 | Where | Setting |
 |-------|---------|
 | Fonts | Interface `Maple Mono Normal` Light, monospace `Maple Mono Normal NFM` |
-| Icons | Cosmic-Blush-Rose |
+| Icons | Cosmic-Blush-Dark |
 | Windows | Minimize / maximize buttons hidden, theme applied to GNOME apps |
 | Terminal | Maple Mono 15 (weights 500 / bold 800 / dim 300), 77% opacity, no header bar, Blush |
 
@@ -706,13 +706,13 @@ cp btop/Blush.theme ~/.config/btop/themes/
 Icons: **Cosmic-Blush**, the [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa)
 by Fausto Korpsvart recolored to this palette in
 [cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes). Folders come in
-three colors: **Rose** ![#9E4F5B](https://placehold.co/12x12/9e4f5b/9e4f5b.png) `#9E4F5B` (default), **Crimson** ![#A02B16](https://placehold.co/12x12/a02b16/a02b16.png) `#A02B16` and **Dark** ![#35302A](https://placehold.co/12x12/35302a/35302a.png) `#35302A` with rose symbols.
+three colors: **Rose** ![#9E4F5B](https://placehold.co/12x12/9e4f5b/9e4f5b.png) `#9E4F5B`, **Crimson** ![#A02B16](https://placehold.co/12x12/a02b16/a02b16.png) `#A02B16` and **Dark** ![#35302A](https://placehold.co/12x12/35302a/35302a.png) `#35302A` (default) with rose symbols.
 
 ![Cosmic-Blush folder colors](https://raw.githubusercontent.com/atraxsrc/cosmic-icon-themes/main/previews/Cosmic-Blush.png)
 
 ```bash
-./icons/install.sh                       # Rose folders
-./icons/install.sh --variant Crimson  # or Dark
+./icons/install.sh                 # Dark folders
+./icons/install.sh --variant Rose  # or Crimson
 ```
 
 It downloads the pack from the latest cosmic-icon-themes release, checks its SHA256,
